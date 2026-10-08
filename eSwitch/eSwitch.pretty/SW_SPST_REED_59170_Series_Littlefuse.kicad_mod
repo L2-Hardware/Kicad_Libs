@@ -1,7 +1,7 @@
 (footprint "SW_SPST_REED_59170_Series_Littlefuse"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SPST Reed Switch CT10-XXXX-G2")
 	(tags "Reed SPST Switch")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "835709ec-cb8d-44ae-b5d6-c323739a01c9")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a69f7d30-08b6-49db-a9a3-9652f8d4f1b3")
 	)
@@ -145,7 +132,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8f9a4d8b-c01d-429a-8479-e8c8b7553af4")
 	)
@@ -163,15 +150,16 @@
 	(pad "1" smd rect
 		(at -7.42 0)
 		(size 2.03 2.03)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "732ccaff-d934-4773-a6ad-9bfa1e3b0ab3")
 	)
 	(pad "2" smd rect
 		(at 7.42 0)
 		(size 2.03 2.03)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c7eb8aa2-f6a2-4148-8615-4eab5e9942aa")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../KiCad_Libs/eSwitch/eSwitch.3dshapes/59170-1-S-00-C_LTF.step"
 		(offset
 			(xyz 0 0 0)

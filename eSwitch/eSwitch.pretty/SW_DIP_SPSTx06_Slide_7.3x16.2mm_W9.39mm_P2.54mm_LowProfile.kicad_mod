@@ -1,7 +1,7 @@
 (footprint "SW_DIP_SPSTx06_Slide_7.3x16.2mm_W9.39mm_P2.54mm_LowProfile"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD 6x-dip-switch SPST , Slide, row spacing 9.39 mm, body size 7.3x16.2mm, SMD, LowProfile")
 	(tags "SMD DIP Switch SPST Slide 9.39mm SMD LowProfile")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0edcc944-890e-41b3-a44f-930164df4343")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -2279,75 +2267,76 @@
 	(pad "1" smd rect
 		(at -4.695 -6.35)
 		(size 2.44 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "525ddd3a-58c0-451c-8b31-53fce6e4cddf")
 	)
 	(pad "2" smd rect
 		(at -4.695 -3.81)
 		(size 2.44 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "046fbe6f-5483-4a16-9730-46c1d77063d0")
 	)
 	(pad "3" smd rect
 		(at -4.695 -1.27)
 		(size 2.44 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ae4ab6ee-fafd-467b-a54f-cd3896e2544c")
 	)
 	(pad "4" smd rect
 		(at -4.695 1.27)
 		(size 2.44 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d3cfe9c4-9f18-4efa-a4bc-b6e8c0555667")
 	)
 	(pad "5" smd rect
 		(at -4.695 3.81)
 		(size 2.44 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9d0ec4b7-81fd-4e5f-aea6-6fd66e034e1c")
 	)
 	(pad "6" smd rect
 		(at -4.695 6.35)
 		(size 2.44 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c628ed92-5197-4ec6-b75a-65894515895f")
 	)
 	(pad "7" smd rect
 		(at 4.695 6.35)
 		(size 2.44 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "976fffcb-aa65-4923-a65d-8eb66e51274d")
 	)
 	(pad "8" smd rect
 		(at 4.695 3.81)
 		(size 2.44 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5451e35c-7a43-4583-bc2c-e470285c0ff3")
 	)
 	(pad "9" smd rect
 		(at 4.695 1.27)
 		(size 2.44 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ee7ac10f-0b02-4d6c-bc2d-c4191ded49c9")
 	)
 	(pad "10" smd rect
 		(at 4.695 -1.27)
 		(size 2.44 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ea65d560-065a-4f05-abe2-24b0cc19e80d")
 	)
 	(pad "11" smd rect
 		(at 4.695 -3.81)
 		(size 2.44 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8ecab7ae-10bb-4344-8008-79d187cb3446")
 	)
 	(pad "12" smd rect
 		(at 4.695 -6.35)
 		(size 2.44 1.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "27ff010a-88d5-49d4-bcc3-05723a7feebd")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../KiCad_Libs/eSwitch/eSwitch.3dshapes/SW_DIP_SPSTx06_Slide_7.3x16.2mm_W9.39mm_P2.54mm_LowProfile.step"
 		(offset
 			(xyz 0 0 0)

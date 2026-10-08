@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_TRACO_THL15-xxxx_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DCDC-Converter TRACO THL 15 to 15W, Single or dual Output")
 	(tags "DCDC-Converter TRACO THL15 Generic")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ac1990f7-e955-4006-a27b-c4d8ff748a5d")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -290,6 +277,7 @@
 		(remove_unused_layers no)
 		(uuid "3471c8c6-52bc-4714-ae2b-05936fbe12ff")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/thl15wi.step"
 		(offset
 			(xyz 2.5 -10.15 10)

@@ -1,112 +1,303 @@
-(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "CPT-1117-83-SMT-TR" (pin_names (offset 0.0254) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "BZ" (id 0) (at 3.81 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "CPT-1117-83-SMT-TR" (id 1) (at 3.81 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "eAudio:Buzzer_CPT-1117-83-SMT-TR_11mm_x_9mm" (id 2) (at 2.54 2.54 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eAudio/datasheet/cpt-1117-83-smt-tr.pdf" (id 3) (at 1.27 2.54 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNP" "DNP" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "BUZZER PIEZO 5V 11X9MM SMD" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Buzzers Transducer, Externally Driven Piezo 5 V 3mA 4.1kHz 83dB @ 5V, 10cm Surface Mount Solder Pads" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "CPT-1117-83-SMT-TR_0_1"
-      (arc (start 0 -3.175) (mid 3.175 0) (end 0 3.175)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 3.175)
-          (xy 0 -3.175)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "CPT-1117-83-SMT-TR_1_1"
-      (pin passive line (at -2.54 2.54 0) (length 2.54)
-        (name "-" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -2.54 0) (length 2.54)
-        (name "+" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "PS1240P02BT" (pin_names (offset 0.0254) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "BZ" (id 0) (at 3.81 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "PS1240P02BT" (id 1) (at 3.81 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "eAudio:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm" (id 2) (at -0.635 2.54 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eAudio/datasheet/TDK_PS1240P02BT.pdf" (id 3) (at -0.635 2.54 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DNP" "DNP" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "BUZZER PIEZO 3V 12.2MM TH" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Buzzers Transducer, Externally Driven Piezo 3 V 4kHz 60dB @ 3V, 10cm Through Hole PC Pins" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "PS1240P02BT_0_1"
-      (arc (start 0 -3.175) (mid 3.175 0) (end 0 3.175)
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.651 1.905)
-          (xy -1.143 1.905)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.397 2.159)
-          (xy -1.397 1.651)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 3.175)
-          (xy 0 -3.175)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-    (symbol "PS1240P02BT_1_1"
-      (pin passive line (at -2.54 2.54 0) (length 2.54)
-        (name "-" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -2.54 0) (length 2.54)
-        (name "+" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "CPT-1117-83-SMT-TR"
+		(pin_names
+			(offset 0.0254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BZ"
+			(at 3.81 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CPT-1117-83-SMT-TR"
+			(at 3.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "eAudio:Buzzer_CPT-1117-83-SMT-TR_11mm_x_9mm"
+			(at 2.54 2.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eAudio/datasheet/cpt-1117-83-smt-tr.pdf"
+			(at 1.27 2.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buzzers Transducer, Externally Driven Piezo 5 V 3mA 4.1kHz 83dB @ 5V, 10cm Surface Mount Solder Pads"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "BUZZER PIEZO 5V 11X9MM SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CPT-1117-83-SMT-TR_0_1"
+			(arc
+				(start 0 3.175)
+				(mid 3.1612 0)
+				(end 0 -3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.175) (xy 0 -3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CPT-1117-83-SMT-TR_1_1"
+			(pin passive line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PS1240P02BT"
+		(pin_names
+			(offset 0.0254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BZ"
+			(at 3.81 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PS1240P02BT"
+			(at 3.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "eAudio:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
+			(at -0.635 2.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eAudio/datasheet/TDK_PS1240P02BT.pdf"
+			(at -0.635 2.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buzzers Transducer, Externally Driven Piezo 3 V 4kHz 60dB @ 3V, 10cm Through Hole PC Pins"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "BUZZER PIEZO 3V 12.2MM TH"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PS1240P02BT_0_1"
+			(polyline
+				(pts
+					(xy -1.651 1.905) (xy -1.143 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.397 2.159) (xy -1.397 1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 3.175)
+				(mid 3.1612 0)
+				(end 0 -3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.175) (xy 0 -3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PS1240P02BT_1_1"
+			(pin passive line
+				(at -2.54 2.54 0)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

@@ -1,7 +1,7 @@
 (footprint "KYX-30101BS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "single digit 7 segemnt red LED")
 	(property "Reference" "REF**"
@@ -22,18 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f5ea6be2-e9ed-4529-b5bb-57466e118d77")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -314,6 +302,7 @@
 		(remove_unused_layers no)
 		(uuid "c0336a35-20ee-4cc7-80cb-f7e6d831669b")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../KiCad_Libs/eDisplay/eDisplay.3dshapes/SBC18-11SURKCGKWA.step"
 		(offset
 			(xyz 3 3 0)

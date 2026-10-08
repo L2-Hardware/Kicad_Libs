@@ -1,7 +1,7 @@
 (footprint "BatteryPCB_Dynamis_60.08182"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Lithium Battery Cylindrical 3.6V 2.6Ah AA Primary, Non-Rechargeable, Maximum Self Discharge Rate 1% Per Year")
 	(tags "Lithium Battery Cylindrical 3.6V 2.6Ah AA Primary, Non-Rechargeable, Maximum Self Discharge Rate 1% Per Year")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "097a738f-a108-4107-aec6-c08e6d6d0dd3")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -294,7 +281,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f37c04be-3f08-454b-a75d-1578bf46580c")
 	)
@@ -325,6 +312,7 @@
 		(remove_unused_layers no)
 		(uuid "71e6f9f2-b2e3-42e9-9c31-30528b6be677")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../KiCad_Libs/eBattery/eBattery.3dshapes/Battery_Dynamis_60.08182.step"
 		(offset
 			(xyz 24.25 0 7.25)

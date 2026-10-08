@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "60.08182"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -97,7 +101,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.762) (xy 0 0)
+					(xy 0 1.778) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -109,7 +113,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.778) (xy 0 2.54)
+					(xy 0 0.762) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -182,9 +186,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "C1206C104K5RAC7800"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -276,7 +283,7 @@
 		(symbol "C1206C104K5RAC7800_0_1"
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -2.032 0.762) (xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -288,7 +295,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -337,5 +344,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

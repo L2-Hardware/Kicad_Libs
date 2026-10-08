@@ -1,7 +1,7 @@
 (footprint "Relay_SPDT_10x6mm_TE_IME"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "TE IM-Series Relay SPDT 1 Form C")
 	(property "Reference" "REF**"
@@ -22,18 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b6cb3b40-8e8f-4560-be35-388a61497fc0")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -287,33 +275,34 @@
 	(pad "1" smd rect
 		(at -3 -3.8)
 		(size 2 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d56f9e5f-ad02-45d8-bc8e-3ddc9a4edcc8")
 	)
 	(pad "3" smd rect
 		(at -3 1.6)
 		(size 2 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0f275f48-36d7-40b6-88b2-c9899e7ffa46")
 	)
 	(pad "5" smd rect
 		(at 3 3.8)
 		(size 2 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8eb2009f-30b8-4dcb-99cc-2956d4bb1422")
 	)
 	(pad "7" smd rect
 		(at 3 -0.6)
 		(size 2 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d5940833-8806-4fb4-93eb-ca6c2cffdab8")
 	)
 	(pad "8" smd rect
 		(at 3 -3.8)
 		(size 2 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "05564115-e718-47f4-aa29-b021b54d4e8a")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../KiCad_Libs/eRelay/eRelay.3dshapes/c-1462043-3-b5-3d.step"
 		(offset
 			(xyz 0 0 0.95)

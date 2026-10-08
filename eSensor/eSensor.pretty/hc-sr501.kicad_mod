@@ -1,7 +1,7 @@
 (footprint "hc-sr501"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "U2"
 		(at 0 2.5 0)
@@ -22,18 +22,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.2)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bf173caa-83f5-4c64-b6f2-16994030b81b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -109,7 +97,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "27b7b6dd-c909-490f-93ca-4b4b5dfaeedc")
 	)
@@ -175,6 +163,7 @@
 		(remove_unused_layers no)
 		(uuid "c0b5af96-19f8-4b78-978c-9e8aa262848c")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../KiCad_Libs/eSensor/eSensor.3dshapes/hc-sr501.step"
 		(offset
 			(xyz 0.7 0 12.5)

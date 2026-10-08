@@ -1,15 +1,74 @@
-(footprint "SolderPad_5x8mm" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Solder pad 5.0x8.0mm for wires (battery / motor leads)")
-  (tags "solder pad wire")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -5.20) (layer "F.SilkS")
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
-  )
-  (fp_text value "SolderPad_5x8mm" (at 0 5.20) (layer "F.Fab")
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
-  )
-  (fp_rect (start -2.75 -4.25) (end 2.75 4.25)
-    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
-  (pad "1" smd roundrect (at 0 0) (size 5.0 8.0) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.1))
+(footprint "SolderPad_5x8mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Solder pad 5.0x8.0mm for wires (battery / motor leads)")
+	(tags "solder pad wire")
+	(property "Reference" "REF**"
+		(at 0 -5.2 0)
+		(layer "F.SilkS")
+		(uuid "cb70ce9d-ef6c-4614-b187-fe3112ce1624")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SolderPad_5x8mm"
+		(at 0 5.2 0)
+		(layer "F.Fab")
+		(uuid "1e9862b7-a450-4337-a1ca-f85eaa6de6df")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7155e793-3d26-4514-b1f2-68e5a48d85a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be84e7fe-1ab6-49a9-ad26-d738aa6de4ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.75 -4.25)
+		(end 2.75 4.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7b146ba2-70c7-4fe3-9b8d-0fd397d0a2c9")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 5 8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "14f38b42-6922-4228-a283-74a72b40a5e7")
+	)
+	(embedded_fonts no)
 )
