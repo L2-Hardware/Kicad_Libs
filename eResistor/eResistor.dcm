@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AC1206JR-070RL
+D SMD 0 Ohms Jumper 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film
+K R res resistor 1206 0R 1%
+F ${KIPRJMOD}/../KiCad_Libs/eResistor/datasheet/Yageo_Resistor_AC_Series.pdf
+$ENDCMP
+#
+$CMP CRCW120610K0FKEAC
+D SMD 10 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) - Thick Film
+K R res resistor 1206 10k 1%
+F ${KIPRJMOD}/../KiCad_Libs/eResistor/datasheet/Vishay_Resistor_Series_dcrcwe3.pdf
+$ENDCMP
+#
+$CMP CRCW12061K20JNEA
+D SMD 1.2 kOhms ±5% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film
+K R res resistor 1206 1.2k 5%
+F ${KIPRJMOD}/../KiCad_Libs/eResistor/datasheet/Vishay_Resistor_Series_dcrcwe3.pdf
+$ENDCMP
+#
+$CMP RC1206JR-074K7L
+D SMD 4.7 kOhms ±5% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film
+K R res resistor 1206 4.7k 1%
+F ${KIPRJMOD}/../KiCad_Libs/eResistor/datasheet/Yageo_Resistor_RC-L_Series.pdf
+$ENDCMP
+#
+#End Doc Library

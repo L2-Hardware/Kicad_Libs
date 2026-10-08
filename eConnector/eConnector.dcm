@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M20-9991446
+D Connector Header TH, Vertical 14 position 0.100" (2.54mm)
+K connector header single row TH vertical 2.54mm 01x14
+F ${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/harwin_M.pdf
+$ENDCMP
+#
+$CMP M20-9992046
+D Connector Header TH, Vertical 20 position 0.100" (2.54mm)
+K connector header single row TH vertical 2.54mm 01x20
+F ${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/harwin_M.pdf
+$ENDCMP
+#
+$CMP PH1RB-08-UA
+D Connector Header Through Hole, Right Angle 8 position 0.100" (2.54mm)
+K connector header single row TH right angle 2.54mm 01x08 THRA
+F ${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/AdamTech_ph1rb-xx.pdf
+$ENDCMP
+#
+$CMP PJ-102AH
+D DC Barrel Jack with an internal switch
+K DC power barrel jack connector
+F ${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/PJ-102AH.pdf
+$ENDCMP
+#
+$CMP PPPC081LGBN-RC
+D 8 Position Header Connector 0.100" (2.54mm) Through Hole, Right Angle Gold
+K connector socket single row TH right angle 2.54mm 01x08 THRA
+F ${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/Sullins_100DS.pdf
+$ENDCMP
+#
+$CMP TSM-114-01-T-SV
+D Connector Header SMD, Vertical 14 position 0.100" (2.54mm)
+K connector header single row SMD vertical 2.54mm 01x14
+F ${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/Samtec_TSM.pdf
+$ENDCMP
+#
+$CMP TSM-120-01-T-SV
+D Connector Header SMD, Vertical 20 position 0.100" (2.54mm)
+K connector header single row SMD vertical 2.54mm 01x20
+F ${KIPRJMOD}/../KiCad_Libs/eConnector/datasheet/Samtec_TSM.pdf
+$ENDCMP
+#
+#End Doc Library

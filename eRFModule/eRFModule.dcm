@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP-WROOM-02D
+D WiFi 802.11b/g/n Transceiver Module 2.4GHz ~ 2.5GHz Integrated, Trace Surface Mount, 2MB
+K RF Radio ESP Espressif
+F ${KIPRJMOD}/../KiCad_Libs/eRFModule/datasheet/esp-wroom-02x.pdf
+$ENDCMP
+#
+#End Doc Library

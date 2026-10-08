@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555P
+D 555 Type, Timer/Oscillator (Single) IC 100kHz 8-PDIP
+K IC OSC SINGLE TIMER 100KHZ 8-DIP
+F ${KIPRJMOD}/../KiCad_Libs/eTimer/datasheet/ne555p.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,194 @@
+(footprint "B3FS-1002P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "B3FS-1002P")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at -0.318 -0.105 0)
+		(layer "F.SilkS")
+		(uuid "9b68d2a1-8056-4c2f-b475-e4510c99598e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "B3FS-1002P"
+		(at -0.318 -0.105 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c3e08b02-3a3e-4726-b7be-b64856f02574")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90ee1467-26bd-4ad7-b6f8-a4ed40d01c5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84a6b6bf-e383-480b-becd-2e4c9d56e631")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -3.15)
+		(end 3 -3.15)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dba91823-5868-4ee6-836a-a612a264a1fd")
+	)
+	(fp_line
+		(start -3 3.15)
+		(end -3 -3.15)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75964f32-d357-4104-8c77-eb39b18d1aca")
+	)
+	(fp_line
+		(start 3 -3.15)
+		(end 3 3.15)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55ebcae4-9eec-4900-a70f-894a66834260")
+	)
+	(fp_line
+		(start 3 3.15)
+		(end -3 3.15)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17ed3a2e-78e0-410e-88e0-68ebbe868f84")
+	)
+	(fp_circle
+		(center 4.869 3.232)
+		(end 4.869 3.28892)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c09db343-1f10-44ef-b389-f145e9c101fa")
+	)
+	(fp_line
+		(start -3 -3.15)
+		(end 3 -3.15)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "017281bc-e9cd-4de4-8b28-fc86dde137d5")
+	)
+	(fp_line
+		(start -3 3.15)
+		(end -3 -3.15)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "516996da-86b2-4100-8c4e-e18a9c52ed21")
+	)
+	(fp_line
+		(start 3 -3.15)
+		(end 3 3.15)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4902bf06-1fb8-471b-a6b7-a0a59df06e08")
+	)
+	(fp_line
+		(start 3 3.15)
+		(end -3 3.15)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "025fa357-6036-44c0-8b2f-6b572fb9828e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.318 -0.105 0)
+		(layer "F.Fab")
+		(uuid "25701b12-49f6-4d78-adb6-238701f332f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 4 2.25 90)
+		(size 1.4 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e23798ea-f728-4682-9b36-60963bf5ac0a")
+	)
+	(pad "2" smd rect
+		(at -4 2.25 90)
+		(size 1.4 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a5e52279-3ee5-4cb1-a91b-dd482ab563e2")
+	)
+	(pad "3" smd rect
+		(at 4 -2.25 90)
+		(size 1.4 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "205ddfa6-cf3b-4f87-8b32-c4ceaf8c9ccf")
+	)
+	(pad "4" smd rect
+		(at -4 -2.25 90)
+		(size 1.4 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "35169825-6ecc-4273-8f31-27de6883652c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../KiCad_Libs/eSwitch/eSwitch.3dshapes/B3FS-1002P.step"
+		(offset
+			(xyz 0 0 2.099999873)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

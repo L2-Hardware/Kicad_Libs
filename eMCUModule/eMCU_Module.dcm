@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Arduino_Nano_v3.x
+D Arduino Nano v2.x
+K Arduino nano microcontroller module USB
+F ${KIPRJMOD}/../KiCad_Libs/eMCUModule/datasheet/ArduinoNanoManual23.pdf
+$ENDCMP
+#
+$CMP NUCLEO64-F401RE
+D NUCLEO64-F401RE development board by STMicroelectronics
+K Nucleo F401 STM
+F ${KIPRJMOD}/../KiCad_Libs/eMCUModule/datasheet/DM00105823.pdf
+$ENDCMP
+#
+#End Doc Library

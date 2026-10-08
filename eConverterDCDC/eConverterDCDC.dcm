@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TEC2-1211WI
+D Isolated Module DC DC Converter 1 Output 5V 400mA 4.5V - 18V Input
+K  Traco isolated isolation dc-dc converter transformer 5V
+F ${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/datasheet/tec2wi.pdf
+$ENDCMP
+#
+$CMP VX7805-500
+D DC/DC Converter 1 Output 5V 500mA 6.5V - 36V Input
+K Linear Regulator Replacement non isolated 5V DCDC
+F ${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/datasheet/vx78-500.pdf
+$ENDCMP
+#
+#End Doc Library

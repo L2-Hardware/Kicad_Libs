@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HC-SR501
+D PIR sensor
+K PIR, piroelectric, sensor, proximity
+F ${KIPRJMOD}/../KiCad_Libs/eSensor/datasheet/HC-SR501.pdf
+$ENDCMP
+#
+#End Doc Library

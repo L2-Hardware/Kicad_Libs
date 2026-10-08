@@ -1,0 +1,12 @@
+**
+!.gitignore
+
+!**/*.pretty
+!**/*.pretty/**
+!**/*.3dshapes
+!**/*.3dshapes/**
+!datasheet
+!datasheet/**
+!**/*.lib
+!**/*.dcm
+!**/*.kicad_sym

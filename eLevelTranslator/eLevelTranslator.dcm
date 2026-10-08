@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74ACT245SC
+D Transceiver, Non-Inverting 1 Element 8 Bit per Element 3-State Output 20-SOIC
+K Noninverting Bidirectional level translator 3-state
+F ${KIPRJMOD}/../KiCad_Libs/eLevelTranslator/datasheet/74act245sc.pdf
+$ENDCMP
+#
+$CMP 74LVC245ADB653
+D Transceiver, Non-Inverting 1 Element 8 Bit per Element 3-State Output 20-SOIC
+K Noninverting Bidirectional level translator 3-state
+F ${KIPRJMOD}/../KiCad_Libs/eLevelTranslator/datasheet/sn74lvc245ad.pdf
+$ENDCMP
+#
+$CMP ADG3301BKSZ
+D Voltage Level Translator Bidirectional 1 Circuit 1 Channel 50Mbps SC-70-6
+K Noninverting Bidirectional level translator 3-state
+F ${KIPRJMOD}/../KiCad_Libs/eLevelTranslator/datasheet/adg3301.pdf
+$ENDCMP
+#
+$CMP MC74ACT245DTR2G
+D Transceiver, Non-Inverting 1 Element 8 Bit per Element 3-State Output 20-TSSOP
+K Noninverting Bidirectional level translator
+F ${KIPRJMOD}/../KiCad_Libs/eLevelTranslator/datasheet/mc74act245.pdf
+$ENDCMP
+#
+$CMP SN74ALVC164245DL
+D Voltage Level Translator Bidirectional 2 Circuit 8 Channel 48-SSOP
+K Bidirectional level translator 3-state 16bit
+F ${KIPRJMOD}/../KiCad_Libs/eLevelTranslator/datasheet/sn74alvc164245
+$ENDCMP
+#
+$CMP SN74AVC8T245PW
+D Translation Transceiver 2 Element 8 Bit per Element 3-State Output 24-TSSOP
+K Noninverting Bidirectional level translator
+F ${KIPRJMOD}/../KiCad_Libs/eLevelTranslator/datasheet/sn74avc8t245.pdf
+$ENDCMP
+#
+#End Doc Library

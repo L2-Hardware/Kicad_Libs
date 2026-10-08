@@ -1,0 +1,175 @@
+(footprint "HC-05_BT_Module"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -13.31 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "65bd675d-7fd6-44c9-9faf-e8b0ab2cff99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HC-05_BT_Module"
+		(at 0 -11.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ccffe1ea-6a4c-44f6-8280-0e4474b012d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6068765f-5452-4d43-a389-2782030dd617")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c19befff-cf70-41a2-b477-8cddf634eaec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -19.16 -8.36)
+		(end 19.16 8.36)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9c325bb0-b830-49b6-8fe7-49d51fe636bf")
+	)
+	(fp_poly
+		(pts
+			(xy 19.62 -6.31) (xy 20.12 -6.96) (xy 20.12 -5.66)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "bee556f5-0e3e-452d-affb-ded519e3782a")
+	)
+	(fp_rect
+		(start -19.16 -8.36)
+		(end 19.16 8.36)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d93e3828-195b-41c8-908f-a99e98da2ebe")
+	)
+	(fp_rect
+		(start -19.05 -8.25)
+		(end 19.05 8.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9f8c662d-eb85-4706-9777-1cfc1769a813")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -10.31 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8d521010-2e4a-4d32-bfbc-403088a5025c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 17.04 -6.24)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1666666667)
+		(uuid "417f559a-611c-4585-9fd3-eb352f620a0c")
+	)
+	(pad "2" thru_hole circle
+		(at 17.04 -3.92)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "640503b7-a801-4abf-b802-e5a85b0f5366")
+	)
+	(pad "3" thru_hole circle
+		(at 17.04 -1.38)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44e300d8-091e-41fa-83ef-53253307b9d2")
+	)
+	(pad "4" thru_hole circle
+		(at 17.04 1.16)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9de6d717-be72-47d2-84d3-abcbe56661d1")
+	)
+	(pad "5" thru_hole circle
+		(at 17.04 3.7)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "84813dc3-08dc-4e7e-9448-7e25e0d760e5")
+	)
+	(pad "6" thru_hole circle
+		(at 17.04 6.24)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bac6a5b7-f63b-47bd-a62c-48d0746c23e7")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../KiCad_Libs/eRFModule/eRFModule.3dshapes/HC-06_Bluetooth_Module_(NO_PIN).step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

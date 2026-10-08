@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1825027-5
+D Tactile Switch SPST-NO Side Actuated Through Hole, Right Angle - Shaft length 1.24mm
+K switch normally-open pushbutton push-button right-angle
+F ${KIPRJMOD}/../KiCad_Libs/eSwitch/datasheet/TEConnectivity_Switch_Catalog.pdf
+$ENDCMP
+#
+#End Doc Library

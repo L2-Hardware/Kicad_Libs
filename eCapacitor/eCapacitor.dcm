@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C1206C104K5RAC7800
+D SMD 0.1 µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)
+K cap capacitor unpolarized 1206 50V 100n X7R 10%
+F ${KIPRJMOD}/../KiCad_Libs/eCapacitor/datasheet/KEM_C1002_X7R_SMD.pdf
+$ENDCMP
+#
+#End Doc Library

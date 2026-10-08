@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Digilent_CMOD_A7
+D Digilent board with an Artix 7 FPGA - Schematic Rev. B
+K Digilent FPGA Artix7 Artix CMOD
+F ${KIPRJMOD}/../KiCad_Libs/eFPGAModule/datasheet/Digilent_CMOD_A7.pdf
+$ENDCMP
+#
+$CMP Digilent_CMOD_A7_PMOD
+D Digilent board with an Artix 7 FPGA with PMOD exported on footprint - Schematic Rev. B
+K Digilent FPGA Artix7 Artix CMOD PMOD
+F ${KIPRJMOD}/../KiCad_Libs/eFPGAModule/datasheet/Digilent_CMOD_A7.pdf
+$ENDCMP
+#
+$CMP Digilent_CMOD_S7
+D Digilent board with a Spartan S7
+K Digilent FPGA Spartan7 Spartan CMOD
+F ${KIPRJMOD}/../KiCad_Libs/eFPGAModule/datasheet/Digilent_CMOD_S7.pdf
+$ENDCMP
+#
+$CMP Digilent_CMOD_S7_PMOD
+D Digilent board with a Spartan S7 with PMOD exported on footprint
+K Digilent FPGA Spartan7 Spartan CMOD PMOD
+F ${KIPRJMOD}/../KiCad_Libs/eFPGAModule/datasheet/Digilent_CMOD_S7.pdf
+$ENDCMP
+#
+#End Doc Library

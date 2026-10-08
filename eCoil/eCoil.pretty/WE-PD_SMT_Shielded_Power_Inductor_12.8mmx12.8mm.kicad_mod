@@ -1,0 +1,192 @@
+(footprint "WE-PD_SMT_Shielded_Power_Inductor_12.8mmx12.8mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Wuerth Elektronik,")
+	(tags "inductor wurth hcm smd")
+	(property "Reference" "REF**"
+		(at -0.12 -7.86 0)
+		(layer "F.SilkS")
+		(uuid "1348749b-50ef-41f7-8f10-da96acdee03b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-PD_SMT_Shielded_Power_Inductor_12.8mmx12.8mm"
+		(at 0 7.4 0)
+		(layer "F.Fab")
+		(uuid "c6b97474-5130-49b1-9ea1-ec7e13d1e556")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6886c73-c14f-48d3-aace-89b7b8f38fec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56033bd4-43a2-4bb2-b99e-18963a83220c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.51 -6.51)
+		(end -6.51 6.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b02874ee-41a0-4b4d-b840-bc5f5ad02745")
+	)
+	(fp_line
+		(start -6.51 -6.51)
+		(end 6.51 -6.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37309cbf-8268-46cf-b15a-3a4798b19a14")
+	)
+	(fp_line
+		(start -6.51 -5)
+		(end -5 -6.51)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db8b72f4-eedd-4e6f-a03f-e8ea9188a7c2")
+	)
+	(fp_line
+		(start -6.51 6.51)
+		(end 6.51 6.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6604a78c-0877-4c03-bc81-f3da6d0714b4")
+	)
+	(fp_line
+		(start 6.51 6.51)
+		(end 6.51 -6.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "337be062-94bb-4c06-a1ea-3832a595e0df")
+	)
+	(fp_poly
+		(pts
+			(xy -6.51 -5) (xy -6.51 -6.51) (xy -5 -6.51)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "446a54e8-48e4-498f-b42e-4c065f252bfc")
+	)
+	(fp_rect
+		(start -6.51 -6.51)
+		(end 6.5 6.51)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "de8fef1c-a451-4064-a581-972a6eb27721")
+	)
+	(fp_line
+		(start -6.4 -6.4)
+		(end -6.4 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b0c8bc1-34bb-4bdc-9d56-62835e2f0219")
+	)
+	(fp_line
+		(start -6.4 6.4)
+		(end 6.4 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "42ff19d7-8504-4675-8ac6-1eb3d03909cf")
+	)
+	(fp_line
+		(start 6.4 -6.4)
+		(end -6.4 -6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee7486ce-1029-4dc6-8e8d-dc706b8566f1")
+	)
+	(fp_line
+		(start 6.4 6.4)
+		(end 6.4 -6.39)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b8989ba-14e6-42a6-a79e-1a604f7a53de")
+	)
+	(pad "1" smd rect
+		(at -4.95 0)
+		(size 2.9 5.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c194c3a2-4517-46b5-b1e7-b043687bd293")
+	)
+	(pad "2" smd rect
+		(at 4.95 0)
+		(size 2.9 5.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c1d367c6-09ab-409f-ac70-2331aa85c874")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../KiCad_Libs/eCoil/eCoil.3dshapes/7447709004.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

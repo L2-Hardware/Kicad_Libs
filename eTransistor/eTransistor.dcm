@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC547
+D Bipolar (BJT) Transistor NPN 45 V 100 mA 300MHz 500 mW Through Hole TO-92-3
+K TRANS NPN 45V 0.1A TO92-3
+F ${KIPRJMOD}/../KiCad_Libs/eTimer/datasheet/bc54x.pdf
+$ENDCMP
+#
+$CMP IRF644PBF-BE3
+D N-Channel 250 V 14A (Tc) 125W (Tc) Through Hole TO-220AB
+K MOSFET N-CH 250V 14A TO220AB
+F ${KIPRJMOD}/../KiCad_Libs/eTimer/datasheet/irf644.pdf
+$ENDCMP
+#
+#End Doc Library

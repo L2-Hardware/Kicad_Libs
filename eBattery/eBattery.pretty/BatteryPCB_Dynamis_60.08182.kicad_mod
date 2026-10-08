@@ -1,0 +1,339 @@
+(footprint "BatteryPCB_Dynamis_60.08182"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Lithium Battery Cylindrical 3.6V 2.6Ah AA Primary, Non-Rechargeable, Maximum Self Discharge Rate 1% Per Year")
+	(tags "Lithium Battery Cylindrical 3.6V 2.6Ah AA Primary, Non-Rechargeable, Maximum Self Discharge Rate 1% Per Year")
+	(property "Reference" "REF**"
+		(at 0 -11.5 0)
+		(layer "F.SilkS")
+		(uuid "3483d0e7-1bf8-4e29-be1d-a33981fec054")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BatteryPCB_Dynamis_60.08182"
+		(at 0 11.3 0)
+		(layer "F.Fab")
+		(uuid "e92b8f7e-4eb2-4f0e-94f5-ce50820fbcdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "097a738f-a108-4107-aec6-c08e6d6d0dd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a73b556c-faa9-4bff-b2bf-6c1e65676824")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8e79fe3-2aa7-4f91-86d3-d1b5c124d691")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -28.33 -3.26)
+		(end -25.83 -3.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c21e3855-64ca-4eac-bc38-3be0457c894c")
+	)
+	(fp_line
+		(start -27.08 -2.01)
+		(end -27.08 -4.51)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65ff2da8-191e-4786-a68b-78e19f1a4015")
+	)
+	(fp_line
+		(start -25.4 -7.4)
+		(end 25.4 -7.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7621557-24c0-4c56-9eec-547e217578cb")
+	)
+	(fp_line
+		(start -25.4 7.4)
+		(end -25.4 -7.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "756cb3a6-deeb-4a05-b352-f7b4f941c2bc")
+	)
+	(fp_line
+		(start 25.4 -7.4)
+		(end 25.4 7.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1120bfe-3cb4-433a-9856-cfc3352d93b0")
+	)
+	(fp_line
+		(start 25.4 7.4)
+		(end -25.4 7.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "00c07931-8458-41b7-855a-97b880cae107")
+	)
+	(fp_line
+		(start 28.7 -3.52)
+		(end 26.2 -3.52)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0de76c8-ce4a-4450-b585-8752273b7b04")
+	)
+	(fp_line
+		(start -31.6 -1)
+		(end -25.47 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "403159c0-2b22-4484-967a-24b314d4713a")
+	)
+	(fp_line
+		(start -31.6 1)
+		(end -31.6 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0a2a9b3-5d8c-4899-9a1e-fa753f176591")
+	)
+	(fp_line
+		(start -25.5 7.47)
+		(end 25.47 7.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "92c21e69-09e0-4326-9e86-b5ceaccb7a34")
+	)
+	(fp_line
+		(start -25.47 -7.47)
+		(end -25.47 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b0b3358-070e-40ac-b5fe-9782a4655842")
+	)
+	(fp_line
+		(start -25.47 -7.47)
+		(end 25.47 -7.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b196b18-ef11-435e-b844-1e035d09097b")
+	)
+	(fp_line
+		(start -25.47 1)
+		(end -31.6 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "68bd79c7-e823-4fc0-8570-51ebd5a00fca")
+	)
+	(fp_line
+		(start -25.47 7.47)
+		(end -25.47 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2712ed92-1381-4975-9847-940ff336be51")
+	)
+	(fp_line
+		(start 25.47 -7.47)
+		(end 25.47 -3.68)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3d390cd-e687-4d40-9379-3a95608deaa1")
+	)
+	(fp_line
+		(start 25.47 -7.47)
+		(end 25.47 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab1ee384-fcea-44a9-b9bb-84c8c366feea")
+	)
+	(fp_line
+		(start 25.47 -1)
+		(end 31.6 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e70eb79-b44f-4162-94d8-df9120e56c36")
+	)
+	(fp_line
+		(start 25.47 7.47)
+		(end 25.47 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df3d2ed4-c2b9-4591-b498-4c3bbe648f27")
+	)
+	(fp_line
+		(start 31.6 -1)
+		(end 31.6 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "029cfd6a-0eb2-46e5-b5fd-e2e0e9c4b239")
+	)
+	(fp_line
+		(start 31.6 1)
+		(end 25.47 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "957ecdec-530b-4a10-b7d4-4b03b63cd4e7")
+	)
+	(fp_line
+		(start -25.25 0)
+		(end -28.82 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "845e4269-3370-4850-acfa-9a803faf8f53")
+	)
+	(fp_line
+		(start 28.82 0)
+		(end 25.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fbffab25-d282-4109-8dc6-a8a794e130fa")
+	)
+	(fp_rect
+		(start -25.25 -7.25)
+		(end 25.25 7.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f37c04be-3f08-454b-a75d-1578bf46580c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 -6.84 0)
+		(layer "F.Fab")
+		(uuid "bfeeeccd-b721-4b69-bbe1-096de4308904")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -30.25 0)
+		(size 2.5 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c63d5d6c-97ee-4909-886e-5f964cedd186")
+	)
+	(pad "2" thru_hole oval
+		(at 30.25 0)
+		(size 2.5 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71e6f9f2-b2e3-42e9-9c31-30528b6be677")
+	)
+	(model "${KIPRJMOD}/../KiCad_Libs/eBattery/eBattery.3dshapes/Battery_Dynamis_60.08182.step"
+		(offset
+			(xyz 24.25 0 7.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
