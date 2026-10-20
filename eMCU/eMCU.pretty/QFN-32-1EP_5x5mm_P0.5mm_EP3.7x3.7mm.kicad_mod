@@ -507,17 +507,6 @@
 		(uuid "7059c728-8e2d-4218-a5e5-4606920c910f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/../KiCad_Libs/eMCU/eMCU.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm.step"
 		(offset
 			(xyz 0 0 0)

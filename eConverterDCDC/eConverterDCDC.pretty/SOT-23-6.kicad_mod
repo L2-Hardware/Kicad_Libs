@@ -249,17 +249,6 @@
 		(uuid "37dc8f32-73b3-46a4-961f-0fa5f6e93e4f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/SOT-23-6.step"
 		(offset
 			(xyz 0 0 0)

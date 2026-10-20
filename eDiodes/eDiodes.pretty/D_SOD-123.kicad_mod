@@ -259,17 +259,6 @@
 		(uuid "c63b388c-e76a-4c4a-aa83-3d425aeac0f1")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/D_SOD-123.step"
 		(offset
 			(xyz 0 0 0)

@@ -267,17 +267,6 @@
 		(uuid "f2a577f0-1ee0-4766-bfbf-07bbc0403b2f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)

@@ -647,17 +647,6 @@
 		(uuid "98bea9a3-bc1d-408b-878c-a86c9c7c7d11")
 	)
 	(embedded_fonts no)
-	(model "${KICAD7_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/../KiCad_Libs/eRFModule/eRFModule.3dshapes/QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm.step"
 		(offset
 			(xyz 0 0 0)
