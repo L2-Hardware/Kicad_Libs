@@ -1,7 +1,7 @@
 (footprint "Relay_Omron_G7L-2A-TUB"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(tags "Omron G7L-Series Relay DPDT 2 Form A")
 	(property "Reference" "REF**"
@@ -51,6 +51,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -25.360001 -4.89)
 		(end -24.56 -4.89)

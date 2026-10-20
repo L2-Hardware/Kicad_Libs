@@ -1,7 +1,7 @@
 (footprint "Elios_Logo_Small_10x7.8mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "G***"
 		(at -0.9 -4 0)
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -4.179768 0.532596) (xy -4.131033 0.553408) (xy -4.090934 0.585821) (xy -4.061529 0.627865) (xy -4.044872 0.67757)

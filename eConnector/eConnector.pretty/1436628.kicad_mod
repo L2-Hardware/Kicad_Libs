@@ -1,7 +1,7 @@
 (footprint "1436628"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Phoenix Contact M12 4 poles - 1436628")
 	(tags "Connector")
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.99 8.93)
 		(end -7.99 -0.59)
@@ -881,17 +882,6 @@
 		(layer "F.Fab")
 		(uuid "ed7ca473-0750-49ab-822c-2bb6355457aa")
 	)
-	(fp_text user "PCB EDGE"
-		(at 14.92 8.87 0)
-		(layer "F.Fab")
-		(uuid "2fd4a6fb-1fda-4762-b706-78dd88cb883f")
-		(effects
-			(font
-				(size 0.64 0.64)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 1.77 11.137 0)
 		(layer "F.Fab")
@@ -900,6 +890,17 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
+			)
+		)
+	)
+	(fp_text user "PCB EDGE"
+		(at 14.92 8.87 0)
+		(layer "F.Fab")
+		(uuid "2fd4a6fb-1fda-4762-b706-78dd88cb883f")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
 			)
 		)
 	)

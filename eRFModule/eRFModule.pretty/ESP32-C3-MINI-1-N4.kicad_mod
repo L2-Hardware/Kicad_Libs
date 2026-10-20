@@ -1,7 +1,7 @@
 (footprint "ESP32-C3-MINI-1-N4"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -3.675 -9.635 0)
@@ -50,6 +50,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -1.15 1.55) (xy -2.8 1.55) (xy -2.8 0.56) (xy -2.14 -0.1) (xy -1.15 -0.1)
@@ -676,8 +677,6 @@
 		(uuid "9d257193-54b7-4277-89ea-59979db44322")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "39090285-e7fe-4414-b0fb-a70c575a7000")
 		(hatch full 0.508)
@@ -685,7 +684,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.01)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -700,6 +698,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -708,8 +707,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -722,7 +719,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.01)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -737,6 +733,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -745,8 +742,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "B.Cu")
 		(uuid "791b4055-4fd6-4b22-9744-eb817dc949cd")
 		(hatch full 0.508)
@@ -754,7 +749,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.01)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -769,6 +763,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

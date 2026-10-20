@@ -1,7 +1,7 @@
 (footprint "PinHeader_2x05_P2.54mm_RightAngle_SFH11-PBPC-D05-RA-BK"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.08 -13.98 0)
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -8.97 -11.45)
 		(end 8.97 2.41)
@@ -85,11 +86,11 @@
 		(layer "F.Fab")
 		(uuid "177568f7-3b27-4b24-a5e5-84ed72c7945f")
 	)
-	(fp_text user "1"
-		(at 9.27 1.81 0)
+	(fp_text user "2"
+		(at 9.27 -0.63 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "2bb136b9-8d0a-409c-b690-f14841468f3f")
+		(uuid "c8d43cd9-e82a-4e22-87b2-5f584dfd3dd3")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -98,11 +99,11 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "2"
-		(at 9.27 -0.63 0)
+	(fp_text user "1"
+		(at 9.27 1.81 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c8d43cd9-e82a-4e22-87b2-5f584dfd3dd3")
+		(uuid "2bb136b9-8d0a-409c-b690-f14841468f3f")
 		(effects
 			(font
 				(size 0.8 0.8)

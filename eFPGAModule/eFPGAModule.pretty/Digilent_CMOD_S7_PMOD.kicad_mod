@@ -1,7 +1,7 @@
 (footprint "Digilent_CMOD_S7_PMOD"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Digilent CMOD S7 footprint + PMOD export")
 	(tags "Digilent CMOD S7 Spartan7 Xilinx")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.89 -38.735)
 		(end 8.89 -38.735)
@@ -212,10 +213,10 @@
 		(layer "F.Fab")
 		(uuid "5965b586-ee74-45de-b12f-de8b2f710928")
 	)
-	(fp_text user "USB"
-		(at 0 35.56 0)
+	(fp_text user "PMOD"
+		(at 0 -31.75 0)
 		(layer "F.SilkS")
-		(uuid "530d5959-0080-4edc-92e4-9d65ad7de06f")
+		(uuid "a31bc0c1-ae77-4270-8bae-ab65d5764b8c")
 		(effects
 			(font
 				(size 1 1)
@@ -223,10 +224,10 @@
 			)
 		)
 	)
-	(fp_text user "PMOD"
-		(at 0 -31.75 0)
+	(fp_text user "USB"
+		(at 0 35.56 0)
 		(layer "F.SilkS")
-		(uuid "a31bc0c1-ae77-4270-8bae-ab65d5764b8c")
+		(uuid "530d5959-0080-4edc-92e4-9d65ad7de06f")
 		(effects
 			(font
 				(size 1 1)

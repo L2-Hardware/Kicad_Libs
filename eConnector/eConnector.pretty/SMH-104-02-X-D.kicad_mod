@@ -1,7 +1,7 @@
 (footprint "SMH-104-02-X-D"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "translated Allegro footprint")
 	(property "Reference" "REF**"
@@ -51,6 +51,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -4.57101 6.05599) (xy -3.04902 6.05599) (xy -3.04902 8.498) (xy -4.57101 8.498)
@@ -1905,21 +1906,10 @@
 		(layer "F.Fab")
 		(uuid "beefdba7-4a65-45e2-aa33-1c9d3eed8748")
 	)
-	(fp_text user "8"
-		(at 6.12501 11.773 0)
+	(fp_text user "1"
+		(at -7.15401 7.912 0)
 		(layer "F.SilkS")
-		(uuid "001bbd8b-5fe6-47dc-99b5-810d5e2a0562")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "7"
-		(at 6.12501 7.912 0)
-		(layer "F.SilkS")
-		(uuid "0c500a25-6c8e-47f8-b9cf-0015c4639fc2")
+		(uuid "ac8c92d5-b0d9-4c49-926f-8a8c19192c3e")
 		(effects
 			(font
 				(size 1 1)
@@ -1938,13 +1928,35 @@
 			)
 		)
 	)
-	(fp_text user "1"
-		(at -7.15401 7.912 0)
+	(fp_text user "7"
+		(at 6.12501 7.912 0)
 		(layer "F.SilkS")
-		(uuid "ac8c92d5-b0d9-4c49-926f-8a8c19192c3e")
+		(uuid "0c500a25-6c8e-47f8-b9cf-0015c4639fc2")
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "8"
+		(at 6.12501 11.773 0)
+		(layer "F.SilkS")
+		(uuid "001bbd8b-5fe6-47dc-99b5-810d5e2a0562")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "8.509"
+		(at -7.709 0.127 0)
+		(layer "Dwgs.User")
+		(uuid "4937f7c4-f860-4f30-8a8b-c7dd8fa08d31")
+		(effects
+			(font
+				(size 0.2 0.2)
 				(thickness 0.15)
 			)
 		)
@@ -1960,10 +1972,10 @@
 			)
 		)
 	)
-	(fp_text user "8.509"
-		(at -7.709 0.127 0)
+	(fp_text user "2.540"
+		(at -6.439 13.906 0)
 		(layer "Dwgs.User")
-		(uuid "4937f7c4-f860-4f30-8a8b-c7dd8fa08d31")
+		(uuid "c105f664-9b17-4619-ab2d-401dddce8dff")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -1993,21 +2005,10 @@
 			)
 		)
 	)
-	(fp_text user "2.540"
-		(at -6.439 13.906 0)
-		(layer "Dwgs.User")
-		(uuid "c105f664-9b17-4619-ab2d-401dddce8dff")
-		(effects
-			(font
-				(size 0.2 0.2)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "8"
-		(at 6.12501 11.773 0)
+	(fp_text user "1"
+		(at -7.15401 7.912 0)
 		(layer "F.Fab")
-		(uuid "41b14c58-92e0-4aab-8b50-f3693cdf4e1d")
+		(uuid "ae2b10c6-cb75-427a-9bbe-fe544e25c047")
 		(effects
 			(font
 				(size 1 1)
@@ -2037,10 +2038,10 @@
 			)
 		)
 	)
-	(fp_text user "1"
-		(at -7.15401 7.912 0)
+	(fp_text user "8"
+		(at 6.12501 11.773 0)
 		(layer "F.Fab")
-		(uuid "ae2b10c6-cb75-427a-9bbe-fe544e25c047")
+		(uuid "41b14c58-92e0-4aab-8b50-f3693cdf4e1d")
 		(effects
 			(font
 				(size 1 1)

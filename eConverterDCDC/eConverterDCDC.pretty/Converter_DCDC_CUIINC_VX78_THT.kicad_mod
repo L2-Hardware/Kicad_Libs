@@ -1,7 +1,7 @@
 (footprint "Converter_DCDC_CUIINC_VX78_THT"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "DCDC-Converter, TRACO, TMR xxxx, Single/Dual output, http://www.datasheetlib.com/datasheet/135136/tmr-2-2410e_traco-power.html?page=3#datasheet")
 	(tags "DCDC-Converter TRACO TMRxxxx Single/Dual_output")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.1 -1)
 		(end -6.1 1)

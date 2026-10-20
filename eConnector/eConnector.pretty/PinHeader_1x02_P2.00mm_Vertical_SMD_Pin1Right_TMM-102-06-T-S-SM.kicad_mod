@@ -1,7 +1,7 @@
 (footprint "PinHeader_1x02_P2.00mm_Vertical_SMD_Pin1Right_TMM-102-06-T-S-SM"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "surface-mounted straight pin header, 1x02, 2.00mm pitch, single row, style 2 (pin 1 right)")
 	(tags "Surface mounted pin header SMD 1x02 2.00mm single row style2 pin1 right")
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.06 -2.06)
 		(end -1.06 0.315)

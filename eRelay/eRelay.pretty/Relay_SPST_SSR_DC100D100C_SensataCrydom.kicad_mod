@@ -1,7 +1,7 @@
 (footprint "Relay_SPST_SSR_DC100D100C_SensataCrydom"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.15 -0.6 0)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -25.55 -14.4)
 		(end -22.05 -14.4)
@@ -924,58 +925,6 @@
 		(layer "F.Fab")
 		(uuid "f190f84d-7d74-4591-b8a0-dfaa2f94c0f5")
 	)
-	(fp_text user "4"
-		(at 30 10 270)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "04e08f14-4d21-4386-bd71-7bd78e071e68")
-		(effects
-			(font
-				(size 3 2)
-				(thickness 0.2)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "INPUT"
-		(at 18.75 4.1 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "05d77186-72c2-4bcd-a4fd-73bc326369c0")
-		(effects
-			(font
-				(size 3 2)
-				(thickness 0.2)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "+2"
-		(at -33 -10 270)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "4f93de90-259d-483e-a786-8d1cb447584a")
-		(effects
-			(font
-				(size 3 2)
-				(thickness 0.2)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "INPUT"
-		(at 40.65 4.1 90)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "9c2ff7ac-3bfa-4abd-b68a-2449ee85b252")
-		(effects
-			(font
-				(size 3 2)
-				(thickness 0.2)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "OUTPUT"
 		(at -40 -5.8 270)
 		(unlocked yes)
@@ -989,11 +938,11 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "+3"
-		(at 30 -10 270)
+	(fp_text user "+2"
+		(at -33 -10 270)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "e255a3a8-1ec0-4742-ab14-e40c3171e66d")
+		(uuid "4f93de90-259d-483e-a786-8d1cb447584a")
 		(effects
 			(font
 				(size 3 2)
@@ -1028,18 +977,70 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "INPUT"
+		(at 18.75 4.1 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "05d77186-72c2-4bcd-a4fd-73bc326369c0")
+		(effects
+			(font
+				(size 3 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+3"
+		(at 30 -10 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e255a3a8-1ec0-4742-ab14-e40c3171e66d")
+		(effects
+			(font
+				(size 3 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "4"
+		(at 30 10 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "04e08f14-4d21-4386-bd71-7bd78e071e68")
+		(effects
+			(font
+				(size 3 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "INPUT"
+		(at 40.65 4.1 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9c2ff7ac-3bfa-4abd-b68a-2449ee85b252")
+		(effects
+			(font
+				(size 3 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
 	(pad "" np_thru_hole circle
 		(at -23.8 0)
 		(size 5.1 5.1)
 		(drill 5.1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "e0158ed5-ee93-4cb9-9832-5d97b0058878")
 	)
 	(pad "" np_thru_hole circle
 		(at 23.8 0)
 		(size 5.1 5.1)
 		(drill 5.1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "22794d1b-dbb9-4127-af6c-34fbd9269026")
 	)
 	(pad "1" thru_hole circle

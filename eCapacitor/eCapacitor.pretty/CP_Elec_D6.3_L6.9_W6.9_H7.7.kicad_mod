@@ -1,7 +1,7 @@
 (footprint "CP_Elec_D6.3_L6.9_W6.9_H7.7"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SMD capacitor, aluminum electrolytic, 6.3x7.7mm")
 	(tags "capacitor electrolytic")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.4375 -1.8475)
 		(end -3.65 -1.8475)
