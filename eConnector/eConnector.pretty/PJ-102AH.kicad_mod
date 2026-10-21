@@ -169,7 +169,7 @@
 		(uuid "406b418c-f063-46b7-b396-e825f5a7dea5")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/PJ-102AH.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/PJ-102AH.step"
 		(offset
 			(xyz 4.159999785 10.64999946 6.269999887)
 		)

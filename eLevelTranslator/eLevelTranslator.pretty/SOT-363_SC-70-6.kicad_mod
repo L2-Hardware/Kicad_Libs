@@ -211,7 +211,7 @@
 		(uuid "77268b52-48e0-43a5-a7e0-dd419ccaf00e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eLevelTranslator/eLevelTranslator.3dshapes/SOT-363_SC-70-6.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eLevelTranslator/eLevelTranslator.3dshapes/SOT-363_SC-70-6.step"
 		(offset
 			(xyz 0 0 0)
 		)

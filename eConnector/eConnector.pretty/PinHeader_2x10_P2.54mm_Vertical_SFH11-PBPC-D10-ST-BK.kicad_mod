@@ -465,7 +465,7 @@
 		(uuid "53f69c98-a4e3-48d7-9f75-d0dec205c794")
 	)
 	(embedded_fonts no)
-	(model "D:/WGit_Home/Elios/KiCad_Libs/eConnector/eConnector.3dshapes/SFH11-PBPC-D10-ST-BK.step"
+	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/SFH11-PBPC-D10-ST-BK.step"
 		(offset
 			(xyz -0.42 1.7 2.8)
 		)

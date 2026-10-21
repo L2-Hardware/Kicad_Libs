@@ -405,7 +405,7 @@
 		(uuid "232a3f5d-b8e5-4aa8-a4e8-ffe3284d57a3")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eAmplifier/eAmplifier.3dshapes/TPA3116D2DAD.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eAmplifier/eAmplifier.3dshapes/TPA3116D2DAD.step"
 		(offset
 			(xyz 0 0 0)
 		)

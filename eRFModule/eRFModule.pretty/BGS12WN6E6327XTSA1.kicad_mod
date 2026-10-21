@@ -222,7 +222,7 @@
 		(uuid "6e204d01-7e09-4911-ad79-136326541a6b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eRFModule/eRFModule.3dshapes/BGS12WN6E6327XTSA1.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eRFModule/eRFModule.3dshapes/BGS12WN6E6327XTSA1.step"
 		(offset
 			(xyz 0 0 0)
 		)

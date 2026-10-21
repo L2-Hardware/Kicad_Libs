@@ -397,7 +397,7 @@
 		(uuid "88117b44-07c7-4358-92c9-33b04e7a8b1e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eConverterADDA/eConverterADDA.3dshapes/PCM2706CPJTR.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eConverterADDA/eConverterADDA.3dshapes/PCM2706CPJTR.step"
 		(offset
 			(xyz 0 0 0)
 		)

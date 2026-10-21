@@ -1289,7 +1289,7 @@
 		(uuid "fdfe324c-a27b-4ac4-97c5-2bcf196147d3")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/PinHeader_1x08_P2.54mm_Horizontal.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/PinHeader_1x08_P2.54mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

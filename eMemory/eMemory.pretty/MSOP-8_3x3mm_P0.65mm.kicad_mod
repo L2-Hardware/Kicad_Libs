@@ -251,7 +251,7 @@
 		(uuid "5c98af05-76b1-4298-8df4-b124487c2755")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eMemory/eMemory.3dshapes/MSOP-8_3x3mm_P0.65mm.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eMemory/eMemory.3dshapes/MSOP-8_3x3mm_P0.65mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

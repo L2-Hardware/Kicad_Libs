@@ -516,7 +516,7 @@
 		(uuid "911fa627-9dd3-47cf-ad90-ccda32fc35b2")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eRFModule/eRFModule.3dshapes/BM64SPKS1MC2-0002AA.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eRFModule/eRFModule.3dshapes/BM64SPKS1MC2-0002AA.step"
 		(offset
 			(xyz 0 0 0)
 		)

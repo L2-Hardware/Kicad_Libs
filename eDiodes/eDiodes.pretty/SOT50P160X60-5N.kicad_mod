@@ -194,7 +194,7 @@
 		(uuid "6b90e110-5675-490b-8858-93c851d77b3c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/TPD2E2U06DRLR.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eDiodes/eDiodes.3dshapes/TPD2E2U06DRLR.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -280,7 +280,7 @@
 		(uuid "a51f3037-43c3-4176-90f9-d37f90084091")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eTimer/eTimer.3dshapes/DIP-8_W7.62mm.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eTimer/eTimer.3dshapes/DIP-8_W7.62mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

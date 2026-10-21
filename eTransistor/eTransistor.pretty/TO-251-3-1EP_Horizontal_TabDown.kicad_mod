@@ -325,7 +325,7 @@
 		(uuid "5834a5f7-8045-49e4-ac5a-f29b3374a8fd")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/TO-251-3-1EP_Horizontal_TabDown.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/TO-251-3-1EP_Horizontal_TabDown.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -401,7 +401,7 @@
 		(uuid "7cf1dc4b-bfb7-41f5-a667-7ecc4e51f7c1")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16W_5.3x10.2mm_P1.27mm.step"
+	(model "${KIPRJMOD}/../KiCad_Libs/eInterface/eInterface.3dshapes/SOIC-16W_5.3x10.2mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

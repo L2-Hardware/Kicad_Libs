@@ -335,7 +335,7 @@
 		(uuid "1afbe74f-96cc-4d8f-b6e5-ae350585860f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eLevelTranslator/eLevelTranslator.3dshapes/TSSOP-20_4.4x6.5mm_P0.65mm.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eLevelTranslator/eLevelTranslator.3dshapes/TSSOP-20_4.4x6.5mm_P0.65mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

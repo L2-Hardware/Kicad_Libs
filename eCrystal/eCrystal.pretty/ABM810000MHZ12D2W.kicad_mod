@@ -230,7 +230,7 @@
 		(uuid "d5b49338-71cf-46f9-b416-a46d614e9134")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eCrystal/eCrystal.3dshapes/ABM8-12.000MHZ-12-B1U-T.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eCrystal/eCrystal.3dshapes/ABM8-12.000MHZ-12-B1U-T.step"
 		(offset
 			(xyz 0 0 0)
 		)

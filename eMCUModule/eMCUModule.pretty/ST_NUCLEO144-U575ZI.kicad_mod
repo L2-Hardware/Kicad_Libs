@@ -1851,16 +1851,5 @@
 		(remove_unused_layers no)
 		(uuid "96c4cce1-be4b-4161-b9e0-bc26c08b4753")
 	)
-	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Module.3dshapes/ST_Morpho_Connector_144_STLink.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
+	(embedded_fonts no)
 )

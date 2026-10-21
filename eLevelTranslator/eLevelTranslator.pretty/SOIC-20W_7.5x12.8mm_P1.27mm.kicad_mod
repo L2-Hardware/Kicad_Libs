@@ -385,7 +385,7 @@
 		(uuid "b473114c-b1be-4813-8039-106fb9d7a479")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eLevelTranslator/eLevelTranslator.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eLevelTranslator/eLevelTranslator.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

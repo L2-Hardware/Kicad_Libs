@@ -176,7 +176,7 @@
 		(uuid "1d7640c9-82d9-46e9-b268-a0f2c9ba7248")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eCoil/eCoil.3dshapes/IHLP2525CZER6R8M8A.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eCoil/eCoil.3dshapes/IHLP2525CZER6R8M8A.step"
 		(offset
 			(xyz -1.499999977 5.300000111 -2.400000059)
 		)

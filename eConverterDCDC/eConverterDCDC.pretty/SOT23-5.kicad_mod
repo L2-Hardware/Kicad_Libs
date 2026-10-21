@@ -234,7 +234,7 @@
 		(uuid "789cddf5-51b4-4a08-a2a3-9964fca3b95c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/SOT23-5.step"
+	(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/SOT-23-5.step"
 		(offset
 			(xyz 0 0 0)
 		)

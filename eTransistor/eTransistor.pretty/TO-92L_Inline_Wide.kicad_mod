@@ -215,7 +215,7 @@
 		(uuid "7fea9bc1-08b8-4b36-8b73-57db571b7001")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/TO-92L_Inline_Wide.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/TO-92L_Inline_Wide.step"
 		(offset
 			(xyz 0 0 0)
 		)

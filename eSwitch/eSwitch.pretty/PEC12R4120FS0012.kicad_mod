@@ -332,7 +332,7 @@
 		(uuid "343f55e0-df8d-4bad-8cf8-946aae583469")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eSwitch/eSwitch.3dshapes/PEC12R-4120F-S0012.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eSwitch/eSwitch.3dshapes/PEC12R-4120F-S0012.step"
 		(offset
 			(xyz 2.499999962 7.479999907 -0.1399999985)
 		)

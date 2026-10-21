@@ -255,7 +255,7 @@
 		(uuid "ace4a878-6455-47ed-80ec-ebdae95b4298")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/PinHeader_1x05_P2.00mm_Vertical.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/PinHeader_1x05_P2.00mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

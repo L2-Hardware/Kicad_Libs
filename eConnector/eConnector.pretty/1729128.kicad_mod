@@ -211,7 +211,7 @@
 		(uuid "72dadccb-519e-436d-b86c-bc1faba45d5d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/1729128.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/1729128.step"
 		(offset
 			(xyz -2.609999856 -4.070000111 0)
 		)

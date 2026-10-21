@@ -220,7 +220,7 @@
 		(uuid "b52b1f31-cb29-4a85-849d-255a02c661ab")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/LMR33630BDDA.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/LMR33630BDDA.step"
 		(offset
 			(xyz 0 0 0)
 		)

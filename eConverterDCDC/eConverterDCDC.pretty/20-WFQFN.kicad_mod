@@ -607,7 +607,7 @@
 		(uuid "40bda012-5ace-4aa6-8245-2442a26b3e31")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/20-WFQFN.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/20-WFQFN.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -269,7 +269,7 @@
 		(uuid "81a59b4f-655a-4c24-b091-5af892e59a9a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/TO-220-3_Vertical.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.3dshapes/TO-220-3_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)

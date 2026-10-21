@@ -264,7 +264,7 @@
 		(uuid "efc26fe5-bec2-4cef-bb1a-0cd5eb911e0d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eRFModule/eRFModule.3dshapes/BALFHB-WL-06D3.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eRFModule/eRFModule.3dshapes/BALFHB-WL-06D3.step"
 		(offset
 			(xyz 0 0 0)
 		)

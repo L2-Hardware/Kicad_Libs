@@ -218,7 +218,7 @@
 		(uuid "d22c2b76-33d4-430a-a33e-4220887f87c8")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/8-PowerVFDFN.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/8-PowerVFDFN.step"
 		(offset
 			(xyz 0 0 0)
 		)

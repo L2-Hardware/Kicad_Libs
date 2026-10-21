@@ -376,7 +376,7 @@
 		(uuid "bc1b83bf-7c0c-41af-8e08-b67207171cb7")
 	)
 	(embedded_fonts no)
-	(model "${KISYS3DMOD}/Package_DIP.3dshapes/DIP-20_W7.62mm.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eInterfaceExp/eInterfaceExp.3dshapes/DIP-20_W7.62mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

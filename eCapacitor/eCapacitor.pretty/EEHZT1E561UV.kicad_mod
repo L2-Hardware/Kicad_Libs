@@ -324,7 +324,7 @@
 		(uuid "0e9bb755-d539-4aef-a661-1dd64172467b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eCapacitor/eCapacitor.3dshapes/EEE-FK1H221GV.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eCapacitor/eCapacitor.3dshapes/EEE-FK1H221GV.step"
 		(offset
 			(xyz 0 0 0.999999985)
 		)

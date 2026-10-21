@@ -357,7 +357,7 @@
 		(uuid "7f496f28-2a34-4fb3-864c-6bc5ba5244ec")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eIsolators/eIsolators.3dshapes/SOIC-16W_7.5x10.3mm_P1.27mm.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eIsolators/eIsolators.3dshapes/SOIC-16W_7.5x10.3mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

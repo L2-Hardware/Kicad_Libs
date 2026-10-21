@@ -706,7 +706,7 @@
 		(uuid "1f98f261-cdc2-4466-a7c8-5943dadac9a6")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/RFPC-SMA27-F.stp"
+	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/RFPC-SMA27-F.step"
 		(offset
 			(xyz -0.04999999999 0 3.279999922)
 		)

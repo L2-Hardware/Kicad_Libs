@@ -385,7 +385,7 @@
 		(uuid "d3657ca7-e952-4a5c-9481-2f3bbb915d08")
 	)
 	(embedded_fonts no)
-	(model "${KISYS3DMOD}/Package_SO.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eInterfaceExp/eInterfaceExp.3dshapes/SOIC-20W_7.5x12.8mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

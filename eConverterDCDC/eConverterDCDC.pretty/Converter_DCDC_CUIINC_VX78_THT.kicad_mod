@@ -249,7 +249,7 @@
 		(uuid "21e92e79-1005-402b-b7b2-8d6c3f50deb4")
 	)
 	(embedded_fonts no)
-	(model "${KISYS3DMOD}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TMR-xxxx_THT.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/eConverterDCDC.3dshapes/Converter_DCDC_TRACO_TMR-xxxx_THT.step"
 		(offset
 			(xyz -4.7 2.7 0)
 		)

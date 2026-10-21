@@ -959,7 +959,7 @@
 		(uuid "43bc03d8-e84b-4bc2-bc21-28755b93a11b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/PinSocket_1x08_P2.54mm_Horizontal.wrl"
+	(model "${KIPRJMOD}/../KiCad_Libs/eConnector/eConnector.3dshapes/PinSocket_1x08_P2.54mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)
