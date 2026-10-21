@@ -1,0 +1,15 @@
+# eFerrite datasheets
+
+Parts used by the Drone and B0_EE boards. Symbol, footprint, 3D model and datasheet
+share the part name; the MPN column is the full ordering code.
+
+| Part | Manufacturer | MPN | Datasheet |
+|---|---|---|---|
+| BLM03AX601SN1D | Murata | BLM03AX601SN1D | [BLM03AX601SN1D.pdf](BLM03AX601SN1D.pdf) |
+| BLM15AG601SN1D | Murata | BLM15AG601SN1D | [BLM15AG601SN1D.pdf](BLM15AG601SN1D.pdf) |
+| BLM15PX121SN1D | Murata | BLM15PX121SN1D | [BLM15PX121SN1D.pdf](BLM15PX121SN1D.pdf) |
+| BLM15PX600SN1D | Murata | BLM15PX600SN1D | [BLM15PX600SN1D.pdf](BLM15PX600SN1D.pdf) |
+| BLM15PX601SN1D | Murata | BLM15PX601SN1D | [BLM15PX601SN1D.pdf](BLM15PX601SN1D.pdf) |
+| BLM18AG601SN1D | Murata | BLM18AG601SN1D | [BLM18AG601SN1D.pdf](BLM18AG601SN1D.pdf) |
+| BLM18KG121TN1D | Murata | BLM18KG121TN1D | [BLM18KG121TN1D.pdf](BLM18KG121TN1D.pdf) |
+| BLM18PG121SN1D | Murata | BLM18PG121SN1D | [BLM18PG121SN1D.pdf](BLM18PG121SN1D.pdf) |

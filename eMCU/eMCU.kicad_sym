@@ -33,7 +33,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eMCU:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm"
+		(property "Footprint" "eMCU:ESP32-C3FH4"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44,7 +44,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/ESP32-C3FH4.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55,7 +55,7 @@
 				)
 			)
 		)
-		(property "Description" "RISC-V WiFi/BLE SoC with 4MB in-package flash, QFN-32 5x5 (ELRS receiver MCU)"
+		(property "Description" "RISC-V Wi-Fi and Bluetooth LE SoC, 4 MB flash in package, QFN-32"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -65,29 +65,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Espressif"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ESP32-C3FH4"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(symbol "ESP32-C3FH4_0_1"
 			(rectangle
 				(start -17.78 27.94)
@@ -1716,7 +1694,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eMCU:QFN-28_4x4mm_P0.5mm"
+		(property "Footprint" "eMCU:STM32F031G6U6"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1727,7 +1705,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f031g6.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/STM32F031G6U6.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1738,7 +1716,7 @@
 				)
 			)
 		)
-		(property "Description" "ARM Cortex-M0 MCU 48MHz, 32KB Flash, UFQFPN-28 (VTX controller). Pin-compatible alternative: GigaDevice GD32F130G6U6 (used by OpenVTx Generic_GD32F130 target)"
+		(property "Description" "ARM Cortex-M0 MCU, 32 KB flash, 4 KB RAM, 48 MHz, UFQFPN-28"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1748,29 +1726,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "STM32F031G6U6"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(symbol "STM32F031G6U6_0_1"
 			(rectangle
 				(start -7.62 27.94)
@@ -2323,7 +2279,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eMCU:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+		(property "Footprint" "eMCU:STM32F051K8U6"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2334,7 +2290,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f051k8.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/STM32F051K8U6.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2345,7 +2301,7 @@
 				)
 			)
 		)
-		(property "Description" "ARM Cortex-M0 MCU 48MHz, 64KB Flash, UFQFPN-32 (AM32 ESC MCU). Pin-compatible alternative: Artery AT32F421K8U7 (AM32 HARDWARE_GROUP_AT_B)"
+		(property "Description" "ARM Cortex-M0 MCU, 64 KB flash, 8 KB RAM, 48 MHz, UFQFPN-32"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2355,29 +2311,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "STM32F051K8U6"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(symbol "STM32F051K8U6_0_1"
 			(rectangle
 				(start -7.62 33.02)
@@ -3020,7 +2954,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eMCU:LQFP-64_10x10mm_P0.5mm"
+		(property "Footprint" "eMCU:STM32F405RGT6"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3031,7 +2965,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f405rg.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMCU/datasheet/STM32F405RGT6.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3042,7 +2976,7 @@
 				)
 			)
 		)
-		(property "Description" "ARM Cortex-M4F MCU 168MHz, 1MB Flash, 192KB RAM, LQFP-64"
+		(property "Description" "ARM Cortex-M4F MCU, 1 MB flash, 192 KB RAM, 168 MHz, LQFP-64"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3052,40 +2986,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "STM32F405RGT6"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15742"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(symbol "STM32F405RGT6_0_1"
 			(rectangle
 				(start -10.16 63.5)

@@ -33,7 +33,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eInterface:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm"
+		(property "Footprint" "eInterface:DRV8300DRGER"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44,7 +44,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8300.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eInterface/datasheet/DRV8300DRGER.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55,7 +55,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 3-phase BLDC gate driver, integrated bootstrap diodes, VQFN-24 4x4"
+		(property "Description" "100 V three-phase BLDC gate driver, bootstrap, VQFN-24"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -65,40 +65,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "DRV8300DRGER"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Verify" "Pin table typed from TI DRV8300 datasheet (RGE pin table). Check exposed-pad size vs TI RGE0024 drawing."
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(symbol "DRV8300DRGER_0_1"
 			(rectangle
 				(start -7.62 22.86)

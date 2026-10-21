@@ -1,6 +1,9 @@
 # eAmplifier datasheets
 
+Parts used by the Drone and B0_EE boards. Symbol, footprint, 3D model and datasheet
+share the part name; the MPN column is the full ordering code.
+
 | Part | Manufacturer | MPN | Datasheet |
 |---|---|---|---|
-| INA181A3IDBVR | Texas Instruments | INA181A3IDBVR | https://www.ti.com/lit/ds/symlink/ina181.pdf |
-| RFPA5542 | Qorvo | RFPA5542TR13 | https://github.com/OpenVTx/OpenVTx/blob/master/docs/RFPA5542-Qorvo.pdf |
+| INA181A3IDBVR | Texas Instruments | INA181A3IDBVR | [INA181A3IDBVR.pdf](INA181A3IDBVR.pdf) |
+| RFPA5542TR13 | Qorvo | RFPA5542TR13 | [RFPA5542TR13.pdf](RFPA5542TR13.pdf) |

@@ -1357,8 +1357,8 @@
 			)
 		)
 		(embedded_fonts no)
-	)
-	(symbol "M12_Lens_Holder"
+	)
+	(symbol "CLA017-PC"
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
@@ -1395,7 +1395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://commonlands.com/products/low-profile-m12-lens-mount"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMechanical/datasheet/CLA017-PC.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1428,7 +1428,7 @@
 				)
 			)
 		)
-		(symbol "M12_Lens_Holder_0_1"
+		(symbol "CLA017-PC_0_1"
 			(rectangle
 				(start -5.08 5.08)
 				(end 5.08 -5.08)

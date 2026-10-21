@@ -274,7 +274,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eMemory:SOIC-8_5.23x5.23mm_P1.27mm"
+		(property "Footprint" "eMemory:W25Q128JVSIQ"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -285,7 +285,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/?__locale=en&partNo=W25Q128JV"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eMemory/datasheet/W25Q128JVSIQ.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -296,7 +296,7 @@
 				)
 			)
 		)
-		(property "Description" "128Mbit SPI NOR flash (blackbox logging), SOIC-8 208mil"
+		(property "Description" "Serial NOR flash, 128 Mbit, SPI/Dual/Quad, SOIC-8 208 mil"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -306,40 +306,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Winbond"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "W25Q128JVSIQ"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C97521"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(symbol "W25Q128JVSIQ_0_1"
 			(rectangle
 				(start -10.16 7.62)

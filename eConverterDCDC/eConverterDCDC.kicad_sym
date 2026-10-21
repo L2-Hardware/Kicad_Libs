@@ -2568,7 +2568,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eConverterDCDC:SOT-23-6"
+		(property "Footprint" "eConverterDCDC:LMR16006YDDCR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2579,7 +2579,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr16006.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/datasheet/LMR16006YDDCR.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2590,7 +2590,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 0.6A 2.1MHz buck converter, SOT-23-6 (ESC gate-driver rail)"
+		(property "Description" "Step-down converter, 4 V to 60 V input, 0.6 A, SOT-23-6"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,29 +2600,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "LMR16006YDDCR"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(symbol "LMR16006YDDCR_0_1"
 			(rectangle
 				(start -7.62 5.08)
@@ -4546,7 +4524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eConverterDCDC:TI_SO-PowerPAD-8_ThermalVias"
+		(property "Footprint" "eConverterDCDC:TPS54360BDDAR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4557,7 +4535,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54360b.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/datasheet/TPS54360BDDAR.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4568,7 +4546,7 @@
 				)
 			)
 		)
-		(property "Description" "60V 3.5A non-synchronous buck converter, HSOP-8 PowerPAD"
+		(property "Description" "Step-down converter, 4.5 V to 60 V input, 3.5 A, HSOIC-8 PowerPAD"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4578,29 +4556,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TPS54360BDDAR"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(symbol "TPS54360BDDAR_0_1"
 			(rectangle
 				(start -10.16 7.62)

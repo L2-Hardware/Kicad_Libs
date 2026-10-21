@@ -4526,7 +4526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eRFModule:QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm"
+		(property "Footprint" "eRFModule:RTC6705"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4537,7 +4537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://github.com/OpenVTx/OpenVTx/blob/master/docs/RTC6705-RichWave.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eRFModule/datasheet/RTC6705.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4548,7 +4548,7 @@
 				)
 			)
 		)
-		(property "Description" "5.8GHz FM video transmitter, SPI tuned, QFN-40 6x6"
+		(property "Description" "5.8 GHz FM video transmitter with PLL, QFN-40"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4558,40 +4558,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "RichWave"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RTC6705"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Verify" "Pin table from RichWave RTC6705 datasheet V0.2 (datasheet/RTC6705-RichWave.pdf). The datasheet gives no exposed-pad size: check EP4.6x4.6 against the actual part. Loop-filter values must be tuned."
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(symbol "RTC6705_0_1"
 			(rectangle
 				(start -15.24 35.56)
@@ -6081,7 +6048,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eRFModule:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+		(property "Footprint" "eRFModule:SX1281IMLTRT"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6092,7 +6059,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.semtech.com/products/wireless-rf/lora-connect/sx1281"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eRFModule/datasheet/SX1281IMLTRT.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6103,7 +6070,7 @@
 				)
 			)
 		)
-		(property "Description" "2.4GHz LoRa/FLRC/GFSK transceiver (ExpressLRS 2.4GHz), QFN-24 4x4"
+		(property "Description" "2.4 GHz LoRa/FLRC/GFSK transceiver with ranging, QFN-24"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6113,40 +6080,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Semtech"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SX1281IMLTRT"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Verify" "Pin table typed from Semtech DS_SX1280-1 rev 3.x. RF matching values on the RX sheet are starting points."
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(symbol "SX1281IMLTRT_0_1"
 			(rectangle
 				(start -12.7 22.86)

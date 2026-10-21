@@ -33,7 +33,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "eDisplay:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm"
+		(property "Footprint" "eDisplay:AT7456E"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44,7 +44,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C82351.html"
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eDisplay/datasheet/AT7456E.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55,7 +55,7 @@
 				)
 			)
 		)
-		(property "Description" "Analog video OSD generator, SPI, MAX7456 pin-compatible, HTSSOP-28"
+		(property "Description" "Single channel monochrome OSD generator, MAX7456 compatible, HTSSOP-28"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -65,51 +65,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" "Shenzhen Zhongkewei (ZKW)"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AT7456E"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C82351"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Verify" "Pin table = MAX7456 pinout (AT7456E is pin-compatible). Exposed-pad size of the footprint must be checked against the AT7456E package drawing."
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
+		)
 		(symbol "AT7456E_0_1"
 			(rectangle
 				(start -12.7 22.86)
