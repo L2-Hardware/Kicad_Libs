@@ -37,6 +37,7 @@
   (lib (name "eSensor")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Libs/eSensor/eSensor.kicad_sym")(options "")(descr "eSensor"))
   (lib (name "eSensor_Module")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Libs/eSensor_Module/eSensor_Module.kicad_sym")(options "")(descr "eSensor_Module"))
   (lib (name "eSocket")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Libs/eSocket/eSocket.kicad_sym")(options "")(descr "eSocket"))
+  (lib (name "eSupervisor")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Libs/eSupervisor/eSupervisor.kicad_sym")(options "")(descr "eSupervisor"))
   (lib (name "eSwitch")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Libs/eSwitch/eSwitch.kicad_sym")(options "")(descr "eSwitch"))
   (lib (name "eTestPoint")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Libs/eTestPoint/eTestPoint.kicad_sym")(options "")(descr "eTestPoint"))
   (lib (name "eTimer")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Libs/eTimer/eTimer.kicad_sym")(options "")(descr "eTimer"))

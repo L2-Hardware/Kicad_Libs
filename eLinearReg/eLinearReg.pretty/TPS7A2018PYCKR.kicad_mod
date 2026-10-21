@@ -1,0 +1,167 @@
+(footprint "TPS7A2018PYCKR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "TPS7A2022PYCKR ")
+	(property "Reference" "REF**"
+		(at 0.25 -0.94 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d3eef457-4657-4a8f-bc25-3a54d22b98d6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "TPS7A2018PYCKR"
+		(at 0.17 2.06 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "80f3f9f4-ced2-42a7-aab7-4ebf76dc6847")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2cb0b9d-9afe-4961-b10c-3213406bb4dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58bab2a6-6293-4b83-ae34-f8a9ab1ac400")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.41 -0.41)
+		(end 0.41 0.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1eeefc78-9b89-4bda-8e78-ba9ad14bd1e8")
+	)
+	(fp_line
+		(start -0.3048 -0.3048)
+		(end -0.3048 0.3048)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b251bb1-34de-4a7d-910f-5e0c4928e58f")
+	)
+	(fp_line
+		(start -0.3048 0.3048)
+		(end 0.3048 0.3048)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc1397c5-d810-4c90-bc58-b942dd7d51d7")
+	)
+	(fp_line
+		(start -0.1298 -0.3048)
+		(end -0.3048 -0.129794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5fc907b7-1600-48cf-b153-5889f1acd756")
+	)
+	(fp_line
+		(start 0.3048 -0.3048)
+		(end -0.3048 -0.3048)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28602216-6e2c-4c18-8017-7f1e0e4147c5")
+	)
+	(fp_line
+		(start 0.3048 0.3048)
+		(end 0.3048 -0.3048)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "698e4aa6-7170-48da-96ec-f07352e8e87b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.06 3.63 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6d76af36-c3ac-40fe-afff-c936abdffee6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.175 -0.175006)
+		(size 0.1524 0.1524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cd7da578-f90e-4fc9-b0b1-7722671acb7d")
+	)
+	(pad "A2" smd circle
+		(at 0.175 -0.175006)
+		(size 0.1524 0.1524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "99d2b70e-cd04-4427-9579-427cf3c73e49")
+	)
+	(pad "B1" smd circle
+		(at -0.175 0.175006)
+		(size 0.1524 0.1524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "74249140-d9d3-45bf-bb02-438ecaeb2044")
+	)
+	(pad "B2" smd circle
+		(at 0.175 0.175006)
+		(size 0.1524 0.1524)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "02cce60a-4ca9-4ad4-95dd-399530d1247a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../KiCad_Libs/eLinearReg/eLinearReg.3dshapes/TPS7A2018PYCKR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

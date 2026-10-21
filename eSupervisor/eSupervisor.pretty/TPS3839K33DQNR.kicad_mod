@@ -1,0 +1,228 @@
+(footprint "TPS3839K33DQNR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "TPS3839K33DQNR ")
+	(property "Reference" "REF**"
+		(at 0.21 -1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "da610b91-5750-4a52-ae6a-b1d84c1d7ddd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "TPS3839K33DQNR"
+		(at 0.2 1.93 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "da5f9dbf-6e54-4ad1-943e-87f2e2de31ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04e4a4c5-0886-4e38-a8ed-d5d6299eefdd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a427fc0-5f17-4152-917c-bfa96b1becf0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.63 -0.63)
+		(end 0.63 0.63)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6537d3b5-89d8-4187-84bf-22e1eb25919a")
+	)
+	(fp_line
+		(start -0.525 -0.525)
+		(end -0.525 0.525)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d571803-1beb-4966-aeb3-26977d25a8f7")
+	)
+	(fp_line
+		(start -0.525 0.525)
+		(end 0.525 0.525)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9cdcadf-c59e-4346-853c-05562fe7d9fd")
+	)
+	(fp_line
+		(start 0.525 -0.525)
+		(end -0.525 -0.525)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5486dbfe-c117-4d8c-af96-f33b842ad907")
+	)
+	(fp_line
+		(start 0.525 0.525)
+		(end 0.525 -0.525)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "297205bd-8b28-499f-b358-23e324ffde8d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.04 3.38 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "919d5db0-b9c0-4b96-8a14-922adcfbb4dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.477401 -0.325001)
+		(size 0.0254 0.0254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.022598 -0.249999) (xy -0.022598 0.25) (xy 0.107402 0.25) (xy 0.577401 -0.249999)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "f815efd9-de01-43ab-9938-100c78f5f971")
+	)
+	(pad "2" smd custom
+		(at -0.477401 0.325001)
+		(size 0.0254 0.0254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.022598 -0.25) (xy -0.022598 0.249999) (xy 0.327401 0.249999) (xy 0.327401 -0.03) (xy 0.107402 -0.25)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "89162f6b-f546-4b97-8d0b-90e26bbcb8bb")
+	)
+	(pad "3" smd custom
+		(at 0.477401 0.325001)
+		(size 0.0254 0.0254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.022598 -0.25) (xy 0.022598 0.249999) (xy -0.327401 0.249999) (xy -0.327401 -0.03) (xy -0.107402 -0.25)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "54e40e3a-fc26-4b8e-bf8f-9109d79caa3b")
+	)
+	(pad "4" smd custom
+		(at 0.477401 -0.325001)
+		(size 0.0254 0.0254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.022598 -0.249999) (xy 0.022598 0.25) (xy -0.107402 0.25) (xy -0.327401 0.03) (xy -0.327401 -0.249999)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "a6866158-12d9-4bba-a98f-b185b0944f00")
+	)
+	(pad "5" smd custom
+		(at 0 0)
+		(size 0.0254 0.0254)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 -0.29) (xy -0.29 0) (xy 0 0.29) (xy 0.29 0)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "70564cb1-350b-40f2-918d-178614743570")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../KiCad_Libs/eSupervisor/eSupervisor.3dshapes/TPS3839K33DQNR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
