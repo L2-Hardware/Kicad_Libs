@@ -55266,7 +55266,7 @@
 		)
 		(embedded_fonts no)
 	)
-		(symbol "MR30PW"
+	(symbol "MR30PW"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -55475,7 +55475,7 @@
 		)
 		(embedded_fonts no)
 	)
-		(symbol "XT30PW"
+	(symbol "XT30PW"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
