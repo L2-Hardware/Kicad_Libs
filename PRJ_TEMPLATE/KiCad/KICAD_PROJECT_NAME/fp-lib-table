@@ -44,4 +44,5 @@
   (lib (name "eTimer")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Libs/eTimer/eTimer.pretty")(options "")(descr "eTimer"))
   (lib (name "eTransistor")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Libs/eTransistor/eTransistor.pretty")(options "")(descr "eTransistor"))
   (lib (name "eVoltageReference")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Libs/eVoltageReference/eVoltageReference.pretty")(options "")(descr "eVoltageReference"))
+  (lib (name "eMotor")(type "KiCad")(uri "${KIPRJMOD}/../KiCad_Libs/eMotor/eMotor.pretty")(options "")(descr "eMotor"))
 )
