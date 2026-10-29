@@ -2600,7 +2600,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(symbol "LMR16006YDDCR_0_1"
 			(rectangle
 				(start -7.62 5.08)
@@ -4514,7 +4514,7 @@
 			)
 		)
 		(property "Value" "TPS54360BDDAR"
-			(at 10.16 -11.43 0)
+			(at 7.62 8.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4525,7 +4525,7 @@
 			)
 		)
 		(property "Footprint" "eConverterDCDC:TPS54360BDDAR"
-			(at 0 0 0)
+			(at 1.016 10.668 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -4536,7 +4536,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/datasheet/TPS54360BDDAR.pdf"
-			(at 0 0 0)
+			(at 5.08 13.462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -4547,7 +4547,7 @@
 			)
 		)
 		(property "Description" "Step-down converter, 4.5 V to 60 V input, 3.5 A, HSOIC-8 PowerPAD"
-			(at 0 0 0)
+			(at 6.096 18.034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -4556,11 +4556,11 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
+		)
 		(symbol "TPS54360BDDAR_0_1"
 			(rectangle
 				(start -10.16 7.62)
-				(end 10.16 -10.16)
+				(end 10.16 -29.21)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4572,7 +4572,7 @@
 		)
 		(symbol "TPS54360BDDAR_1_1"
 			(pin input line
-				(at 12.7 5.08 180)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "BOOT"
 					(effects
@@ -4590,7 +4590,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 5.08 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -4608,7 +4608,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 2.54 0)
+				(at -12.7 -10.16 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -4626,7 +4626,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 0 0)
+				(at -12.7 -19.05 0)
 				(length 2.54)
 				(name "RT/CLK"
 					(effects
@@ -4644,7 +4644,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 0 180)
+				(at 12.7 -22.86 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -4662,7 +4662,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -2.54 0)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "COMP"
 					(effects
@@ -4680,7 +4680,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -5.08 0)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -4698,7 +4698,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 2.54 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -4716,7 +4716,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -7.62 0)
+				(at 0 -31.75 90)
 				(length 2.54)
 				(name "GNDPAD"
 					(effects
@@ -4916,6 +4916,252 @@
 				(at 27.94 3.81 180)
 				(length 5.08)
 				(name "VBST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS62088AYFPJ"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 5.588 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS62088AYFPJ"
+			(at 17.78 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "eConverterDCDC:TPS62088AYFPJ"
+			(at -2.286 9.144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/datasheet/TPS62088AYFPJ.pdf"
+			(at 0.254 12.954 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators 2.4-V to 5.5-V input 3-A step-down converter"
+			(at -7.366 16.256 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "DCDC 3A BGA 2.4 - 5.5 V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "YFP0006-C01-IPC_A YFP0006-C01-IPC_B YFP0006-C01-IPC_C YFP0006-C01-MFG YFP0006-C01-MFG_SMD"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPS62088AYFPJ_0_1"
+			(polyline
+				(pts
+					(xy 5.08 5.08) (xy 5.08 -17.78)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -17.78) (xy 27.94 -17.78)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 27.94 5.08) (xy 5.08 5.08)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 27.94 -17.78) (xy 27.94 5.08)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 0 -13.97 0)
+				(length 5.08)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 0 180)
+				(length 5.08)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -5.08 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 16.51 -22.86 90)
+				(length 5.08)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6756,252 +7002,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "TPS62088AYFPJ"
-		(pin_names
-			(offset 0.254)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
-			(at 5.588 6.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TPS62088AYFPJ"
-			(at 17.78 6.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "eConverterDCDC:TPS62088AYFPJ"
-			(at -2.286 9.144 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "${KIPRJMOD}/../KiCad_Libs/eConverterDCDC/datasheet/TPS62088AYFPJ.pdf"
-			(at 0.254 12.954 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" "Switching Voltage Regulators 2.4-V to 5.5-V input 3-A step-down converter"
-			(at -7.366 16.256 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "DCDC 3A BGA 2.4 - 5.5 V"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "YFP0006-C01-IPC_A YFP0006-C01-IPC_B YFP0006-C01-IPC_C YFP0006-C01-MFG YFP0006-C01-MFG_SMD"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "TPS62088AYFPJ_0_1"
-			(polyline
-				(pts
-					(xy 5.08 5.08) (xy 5.08 -17.78)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -17.78) (xy 27.94 -17.78)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 27.94 5.08) (xy 5.08 5.08)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 27.94 -17.78) (xy 27.94 5.08)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at 0 -5.08 0)
-				(length 5.08)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 0 0)
-				(length 5.08)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 0 -13.97 0)
-				(length 5.08)
-				(name "PG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 33.02 0 180)
-				(length 5.08)
-				(name "SW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 33.02 -5.08 180)
-				(length 5.08)
-				(name "FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 16.51 -22.86 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
